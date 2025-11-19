@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2bb5d7;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+
+li {
+  margin: 0 50px;
+}
