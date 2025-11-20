@@ -52,8 +52,8 @@ li {
 }
 
 .flex img {
-  width: 40%;
+  width: 440px;
   object-fit: cover;
-  height: 400px;
+  height: 660px;
   margin-left: 10px;
 }
