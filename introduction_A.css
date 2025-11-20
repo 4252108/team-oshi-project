@@ -30,3 +30,30 @@ ul {
 li {
   margin: 0 50px;
 }
+
+.breadcrumb {
+  margin: 20px 20px 0 20px;
+  font-size: 14px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.flex .introduction {
+  width: 60%;
+  height: 300px;
+  height: 390px;
+  padding: 10px 10px 0 10px;
+  margin-right: 10px;
+}
+
+.flex img {
+  width: 40%;
+  object-fit: cover;
+  height: 400px;
+  margin-left: 10px;
+}
