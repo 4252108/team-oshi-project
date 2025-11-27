@@ -1,13 +1,19 @@
 .site-header {
-  width: 100%;                /* 横幅を画面いっぱい */
+  width: 100%; /* 横幅を画面いっぱい */
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #2BB5D7;  /* 指定の色 */
-  padding: 16px 32px;         /* 左右の余白（8pxの倍数） */
+  background-color: #2bb5d7; /* 指定の色 */
+  padding: 16px 32px; /* 左右の余白（8pxの倍数） */
   color: white;
 }
+
+.site-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 /* ナビゲーションリンク */
 .site-nav a {
   color: white;
@@ -20,34 +26,32 @@
   text-decoration: underline;
 }
 
-
 div.all {
-    display: flex;
-    width: 100%;
-    margin: auto;
+  display: flex;
+  width: 100%;
+  margin: auto;
 }
 
 .text {
-    width: 100%;
-    height: auto;
-    padding: 64px ;
+  width: 100%;
+  height: auto;
+  padding: 64px;
 }
 
 .text h1 {
-    margin-top: 40px;
-    margin-bottom: 80px;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
-
 .img {
-    width: 460px;
-    height: 660px;
-    margin: 64px;
+  width: 460px;
+  height: 660px;
+  margin: 64px;
 }
 
 img {
-    width: 460px;
-    height: 660px;
-    margin: 32px;
-    object-fit: contain ;
+  width: 460px;
+  height: 660px;
+  margin: 32px;
+  object-fit: contain;
 }
