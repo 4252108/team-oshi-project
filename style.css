@@ -1,1 +1,64 @@
 @charset "utf-8";
+
+/* ヘッダー全体 */
+.site-header {
+  width: 100%; /* 横幅を画面いっぱい */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2bb5d7; /* 指定の色 */
+  padding: 16px 32px; /* 左右の余白（8pxの倍数） */
+  color: white;
+}
+
+/* タイトル */
+.site-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ナビゲーションリンク */
+.site-nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 24px; /* 間隔も8pxの倍数 */
+  font-size: 16px;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.introduction {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 16px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  background-color: #e0e0e0;
+  object-fit: cover;
+}
