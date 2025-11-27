@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.hp {
+    gap: 32px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+}
+
+img.dora {
+    width: 460px;
+    height: 660px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    object-fit: cover;
+    display: block;
+}
+
+.hchead {
+    width: 100%;
+    padding: 16px 32px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2BB5D7;
+    color: white;
+}
+
+.tit {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nnav a {
+    margin-left: 24px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.nnav a:hover {
+    text-decoration: underline;
+}
